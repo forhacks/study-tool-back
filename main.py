@@ -13,9 +13,6 @@ dictionary = Dictionary.load("data/dict.dict")
 articles = ["a", "an", "the"]
 threshold = 0.9
 
-tfidf_values = dict(tfidf[corpus])
-
-
 def compare(def1, def2):
 
     # process words and split into array
@@ -24,10 +21,13 @@ def compare(def1, def2):
     def1 = [x for x in def1 if not x in articles]
     def2 = [x for x in def2 if not x in articles]
 
+    def1Len = len(def1)
+    def2Len = len(def2)
+
     # vectors of words in sentences
     def1v = w2v[def1]
     def2v = w2v[def2]
-
+    '''
     # tfidf weights of each word
     def1w = tfidf_values[dictionary.token2id[def1]]
     def2w = tfidf_values[dictionary.token2id[def2]]
@@ -35,11 +35,11 @@ def compare(def1, def2):
     # take dot product of vector and weight
     def1v = np.dot(def1v, def1w)
     def2v = np.dot(def2v, def2w)
-
+    '''
     # take cos distance
-    difference = np.inner(def1v, def2v)
+    difference = np.inner(np.sum(def1v) / def1Len, np.sum(def2v) / def2Len) /\
+        (np.linalg.norm(def1v) + np.linalg.norm(def2v))
 
     return difference
 
-
-compare("This is a test", "Test this is")
+print(1 - compare("Hi", "Test this is"))
