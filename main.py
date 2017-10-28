@@ -30,7 +30,7 @@ def compare(def1, def2):
 
     # tfidf weights of each word
     def1w = tfidf_values[dictionary.token2id[def1]]
-    def2w = tfidf_values[dictionary.token2id[def2]]b
+    def2w = tfidf_values[dictionary.token2id[def2]]
 
     # take dot product of vector and weight
     def1v = np.dot(def1v, def1w)
