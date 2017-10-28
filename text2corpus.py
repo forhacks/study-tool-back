@@ -1,6 +1,7 @@
 import glob
 import re
 
+from gensim.models import TfidfModel
 from gensim.corpora import Dictionary, MmCorpus
 
 path = "data/raw/news.*"
@@ -17,7 +18,10 @@ for fname in glob.glob(path)[:2]:
 print(texts)
 
 dictionary = Dictionary(texts)
+dictionary.save("data/dict.dict")
 
 corpus = [dictionary.doc2bow(text) for text in texts]
-
 MmCorpus.serialize('data/text.mm', corpus)
+
+tfidf_model = TfidfModel(corpus, id2word=dictionary)
+tfidf_model.save("trained/tfidf.model")
