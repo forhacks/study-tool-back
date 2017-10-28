@@ -8,7 +8,7 @@ path = "data/raw/news.*"
 
 texts = []
 
-for fname in glob.glob(path):
+for fname in glob.glob(path)[:10]:
     print('Starting', fname)
 
     with open(fname, 'r') as f:
