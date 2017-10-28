@@ -1,4 +1,8 @@
+from gensim.corpora import MmCorpus
 from gensim.models.tfidfmodel import *
 
-tfidf = TfidfModel("data/text.txt")
+
+corpus = MmCorpus('data/text.mm')
+
+tfidf = TfidfModel(corpus)
 tfidf.save("trained/tfidf.model")
