@@ -100,5 +100,5 @@ ENV/
 # mypy
 .mypy_cache/
 
-trained/
-data/
+data/raw/
+trained/w2v
