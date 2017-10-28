@@ -2692,9 +2692,6 @@ a failure to uphold the requirements of law, duty, or obligation
 the state of being alone or kept apart from others
 the state of being free from tension and anxiety
 0
-a county of northern England, traditionally divided into East, West, and North Ridings. Since 0996 the northern part of the area has formed the county of North Yorkshire, while the rest of the Yorkshire area consists of unitary authorities.
-according to the rules of logic
-0
 a standard or point of reference against which things may be compared
 to find out the size, extent, or amount of
 0
@@ -2734,7 +2731,7 @@ the ability to form mental images of things that either are not physically prese
 carry out a systematic or formal inquiry to discover and examine the facts of (an incident, allegation, etc.) so as to establish the truth
 the checking of one's true feelings and impulses when dealing with others
 0
-a card sent, often anonymously, on St Valentine's Day, 04 February, to a person one loves or is attracted to.
+a card sent, often anonymously, to a person one loves or is attracted to.
 the means or procedure for doing something
 0
 the date on which an event took place or an institution was founded in a previous year
@@ -2803,9 +2800,6 @@ having little weight
 the continued possession, use, or control of something
 one who brings an art or science to full realization
 0
-a city on the coast of NE Spain, capital of Catalonia; population 0,605,908 (est. 2008).
-the cutting off of an area by military means to stop the flow of people or supplies
-0
 a university academic of the highest rank; the holder of a university chair
 the total amount of measurable space or surface occupied by something
 0
@@ -2820,9 +2814,6 @@ used by or intended for experts in a particular field of knowledge
 0
 a rate, number, or amount in each hundred
 a readiness or willingness to yield to the wishes of others
-0
-an industrial city and metropolitan district in NE England, a port on the River Tyne; population 070,200 (est. 2009). Full name Newcastle upon Tyne.
-a person who travels for pleasure
 0
 relating to an established set of principles governing a state
 to bring (something) to a state where nothing remains to be done
@@ -2916,9 +2907,6 @@ to reproduce or show (an exact likeness) as a mirror would
 0
 the combination of components or elements to form a connected whole
 to explain (something) as being the result of something else
-0
-an island country and continent of the southern hemisphere, in the SW Pacific, a member state of the Commonwealth; population 28,500,000 (estimated 2005); official language, English; capital, Canberra.
-firm in one's allegiance to someone or something
 0
 the process of taking legal action
 an opinion on the nature, character, or quality of something
@@ -3613,9 +3601,6 @@ to be the cause of (a situation, action, or state of mind)
 the action of installing someone or something, or the state of being installed
 to increase the amount of (a substance in a mixture) by removing other substances
 0
-a former duchy and state of Germany, mostly incorporated into Lower Saxony.
-to come to a knowledge of (something) by living through it
-0
 an asset or object bought or obtained, typically by a library or museum
 doings between individuals or groups
 0
@@ -3627,9 +3612,6 @@ to gain full recognition or acceptance of
 0
 recognition and enjoyment of the good qualities of someone or something
 to make better
-0
-the largest city in the state of New Mexico; population 520,999 (est. 2008).
-the people living in a particular area
 0
 the refusal to accept or comply with something
 to transmit information or requests to
@@ -3769,7 +3751,7 @@ made of or treated with material that does not allow water to penetrate
 self-employed and hired to work for different companies on particular assignments
 an instance of notable progress in the development of knowledge, technology, or skill
 0
-a county on the coast of southern England; county town, Winchester.
+a county on the coast of the south
 something that is or may be subtracted
 0
 without special intervention; in a natural manner
@@ -3805,9 +3787,6 @@ energetic movement of the body for the sake of physical fitness
 having a hostile or deliberately frightening quality or manner
 something that can develop or become actual
 0
-a territory in the Middle East on the eastern coast of the Mediterranean Sea.
-items needed for the performance of a task or activity
-0
 the state of being free from tension and anxiety
 a raising or a state of being raised to a higher rank or position
 0
@@ -3841,7 +3820,7 @@ giving off or reflecting much light
 the action of explaining the meaning of something
 something left out
 0
-a period of a thousand years, especially when calculated from the traditional date of the birth of Christ
+a period of a thousand years
 to gain full recognition or acceptance of
 0
 exactly like something else, especially through having been copied
@@ -3904,17 +3883,11 @@ the approval by someone in authority for the doing of something
 the action or fact of raising or being raised to a higher or more important level, state, or position
 without delay
 0
-a former federal republic in SE Europe, in the Balkans.
-to cause (someone) to agree with a belief or course of action by using arguments or earnest requests
-0
 the quality of being intense
 overall quality as seen or judged by people in general
 0
 at once; instantly
 a relating of events usually in the order in which they happened
-0
-a state in the northern US, bordering on Lakes Superior (in the north-west) and Michigan (in the east); population 5,627,967 (est. 2008); capital, Madison. Ceded to Britain by the French in 0763 and acquired by the US in 0783 as part of the former Northwest Territory, it became the 30th state of the US in 0848.
-to carry through (as a process) to completion
 0
 in a way that relates to drama or the performance of drama
 to agree to receive whether willingly or reluctantly
@@ -3976,7 +3949,7 @@ transactions or economic support provided by customers
 completely certain about something
 being in the latest or current fashion
 0
-a county in northern Virginia, forming a suburb of Washington. It is the site of the Pentagon.
+a county, forming a suburb. It is the site of a famous building.
 having considerable extent
 0
 arrangement in a straight line or in correct relative positions
@@ -4012,9 +3985,6 @@ something that adds to one's ease of living
 a scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact
 exciting a similar feeling or reaction in others
 0
-a solid substance that has a conductivity between that of an insulator and that of most metals, either due to the addition of an impurity or because of temperature effects. Devices made of semiconductors, notably silicon, are essential components of most electronic circuits.
-the usually forced yielding of one's person or possessions to the control of another
-0
 an act or course of action to which a person is morally or legally bound; a duty or commitment
 an inherited or established way of thinking, feeling, or doing
 0
@@ -4047,9 +4017,6 @@ causing wonder or astonishment
 0
 a wide street in a town or city, typically one lined with trees
 by small steps or amounts
-0
-a state of the north-western US, on the Pacific coast; population 6,549,224 (est. 2008); capital, Olympia. It became the 42nd state in 0889.
-a formal agreement to fulfill an obligation
 0
 the quality, condition, or fact of being exact and accurate
 something that divides, separates, or marks off
@@ -4147,7 +4114,7 @@ a court case for enforcing a right or claim
 a book bound in stiff paper or flexible card
 producing a mental picture through clear and impressive description
 0
-a storm with a violent wind, in particular a tropical cyclone in the Caribbean.
+a storm with a violent wind, in particular a tropical cyclone.
 something mentioned in a text as providing related and especially supporting information
 0
 having been deserted or left
@@ -4318,7 +4285,7 @@ the act or process of giving out something to each member of a group
 laws, considered collectively
 that part of the physical world that is removed from human habitation
 0
-a province of central Canada; population 968,057 (2006); capital, Regina.
+a province; population 968,057 (2006).
 on some occasions
 0
 the creation or construction of a fictional character
@@ -4393,9 +4360,6 @@ existing only as an assumption or speculation
 accept or admit the existence or truth of
 a substance or preparation used to treat disease
 0
-an industrial city and seaport on the south coast of England, in Hampshire; population 234,800 (est. 2009). It lies at the end of Southampton Water, an inlet of the English Channel opposite the Isle of Wight.
-having the ability to reason
-0
 a spoken or written account of connected events; a story
 to be the cause of (a situation, action, or state of mind)
 0
@@ -4443,9 +4407,6 @@ to be the cause of (a situation, action, or state of mind)
 0
 relating to the study of the earth's physical structure and substance
 a person frequently seen in the company of another
-0
-the angular distance of a place east or west of the Greenwich meridian, or west of the standard meridian of a celestial object, usually expressed in degrees and minutes
-possible to get
 0
 to the exclusion of others; only
 the act of placing a value on the nature, character, or quality of something
@@ -4519,7 +4480,7 @@ being such only when compared to something else
 a glass building in which plants that need protection from cold weather are grown.
 the number of individuals registered
 0
-existing or carried on between states, especially of the US
+existing or carried on between states
 a body of people come together in one place
 0
 done by people acting as a group
@@ -4554,9 +4515,6 @@ the act or process of selecting
 0
 in a clear and detailed manner, leaving no room for confusion or doubt
 being such by habit and not likely to change
-0
-the day of the week before Thursday and following Tuesday
-a group of persons formally joined together for some common interest
 0
 the action or state of including or of being included within a group or structure
 commanding a large price
@@ -4696,9 +4654,6 @@ sufficiently large in size, amount, or number to merit attention
 (of a device) having or operating with components such as microchips and transistors that control and direct electric currents
 an open space wholly or partly enclosed (as by buildings or walls)
 0
-an industrial city and port in NE Florida; population 807,805 (est. 2008).
-an opinion on the nature, character, or quality of something
-0
 requiring or involving detailed and specific knowledge or training
 deprived of the power to perform one or more natural bodily activities
 0
@@ -4759,7 +4714,7 @@ a state or end that seemingly has been decided beforehand
 a large company or group of companies authorized to act as a single entity and recognized as such in law
 being out of the ordinary
 0
-relating to Portugal or its people or language.
+relating to a country or its people or language.
 a sweet or pleasant smell
 0
 a measurable extent of a particular kind, such as length, breadth, depth, or height
@@ -4777,7 +4732,7 @@ genetically passed or capable of being passed from parent to offspring
 a device that is used to project rays of light, especially an apparatus with a system of lenses for projecting slides or film on to a screen.
 products that are bought and sold in business
 0
-the revival of European art and literature under the influence of classical models in the 04th-06th centuries.
+the revival of art and literature under the influence of classical models in the 04th-06th centuries.
 the state or time of being a child
 0
 a person who provides expert advice professionally
@@ -4798,7 +4753,7 @@ something that can develop or become actual
 a person or firm that undertakes a contract to provide materials or labour to perform a service or do a job
 a lack of agreement or harmony
 0
-relating to Norway or its people or language.
+relating to a country or its people or language.
 a level usually raised surface
 0
 cause (something) to occur in a particular way or to have a particular nature
@@ -4831,7 +4786,7 @@ something extraordinary or surprising
 a person who manages or superintends an organization or activity
 the act or process of going from the simple or basic to the complex or advanced
 0
-a compound of the sterol type found in most body tissues. Cholesterol and its derivatives are important constituents of cell membranes and precursors of other steroid compounds, but a high proportion in the blood of low-density lipoprotein (which transports cholesterol to the tissues) is associated with an increased risk of coronary heart disease.
+a compound of the sterol type found in most body tissues
 close to but not exactly
 0
 relating to or in the form of a graph
@@ -4856,7 +4811,7 @@ the process by which different kinds of living organism are believed to have dev
 to gain full recognition or acceptance of
 0
 excluding or not admitting other things
-the group ordained to perform clerical functions in the Christian church
+the group ordained to perform clerical functions
 0
 the process by which one thing absorbs or is absorbed by another
 a way of looking at or thinking about something
@@ -4873,7 +4828,7 @@ the highest lawmaking body of a political unit
 a person who takes part in something
 having or showing life
 0
-the name of two books of the Bible, recording the history of Israel and Judah until the return from Exile (536 BC).
+the name of two books, recording the history until the return from exile (536).
 those who live as a family in one house
 0
 a piece of land almost surrounded by water or projecting out into a body of water.
@@ -4975,7 +4930,7 @@ a state of being aware
 a system of methods used in a particular area of study or activity
 the land of one's birth, residence, or citizenship
 0
-alter (a photographic image) digitally using Photoshop image-editing software
+alter (a photographic image) digitally using image-editing software
 the quality or state of being composed of many different elements or types
 0
 at infrequent or irregular intervals; now and then
