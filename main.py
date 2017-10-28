@@ -27,6 +27,10 @@ def compare(def1, def2):
     # vectors of words in sentences
     def1v = w2v[def1]
     def2v = w2v[def2]
+
+    # processing of definitions go here
+    def1v = np.sum(def1v) / def1Len
+    def2v = np.sum(def2v) / def2Len
     '''
     # tfidf weights of each word
     def1w = tfidf_values[dictionary.token2id[def1]]
@@ -37,7 +41,7 @@ def compare(def1, def2):
     def2v = np.dot(def2v, def2w)
     '''
     # take cos distance
-    difference = np.inner(np.sum(def1v) / def1Len, np.sum(def2v) / def2Len) /\
+    difference = np.inner(def1v, def2v) /\
         (np.linalg.norm(def1v) + np.linalg.norm(def2v))
 
     return difference
