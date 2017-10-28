@@ -1,7 +1,7 @@
 import glob
 import re
 
-path = "trained/raw/news.*"
+path = "data/raw/news.*"
 
 fout = open('data/text.txt', 'w')
 
