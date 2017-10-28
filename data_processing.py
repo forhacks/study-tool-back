@@ -32,12 +32,11 @@ data = [process_def(x.strip()) for x in data]
 data = np.reshape(data, (-1, 3)).T
 
 x = data[:2].T
-y = np.array([map(int, data[2:][0])])
+y = [int(x) for x in data[2:][0]]
 
 model = Word2Vec.load("trained/w2v/trained.w2v")
 
 x = [[model.wv[word] for word in a] for a in x]
-x = np.array([np.append(a[0], a[1]) for a in x])
 
-np.save('data/x.npy', y)
+np.save('data/x.npy', x)
 np.save('data/y.npy', y)
