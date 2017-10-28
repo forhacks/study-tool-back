@@ -21,8 +21,8 @@ def compare(def1, def2):
     # process words and split into array
     def1 = re.sub("[^a-zA-Z\s]", " ", def1.lower()).split()
     def2 = re.sub("[^a-zA-Z\s]", " ", def2.lower()).split()
-    def1 = [x for x in def1 if not articles.__contains__(x)]
-    def2 = [x for x in def2 if not articles.__contains__(x)]
+    def1 = [x for x in def1 if not x in articles]
+    def2 = [x for x in def2 if not x in articles]
 
     # vectors of words in sentences
     def1v = w2v[def1]
