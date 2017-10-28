@@ -1,13 +1,13 @@
 import numpy as np
-import math
+import math, random, itertools
 from skimage.util.shape import view_as_blocks
 
 # Hyperparams
-layer_sizes = [1, 20, 5]
-filter_size = 3
+layer_sizes = [1, 32, 5]
+filter_size = 5
 epochs = 100
-batch_size = 16
-learning_rate = 0.0000005
+batch_size = 32
+learning_rate = 0.0000000005
 
 
 def sigmoid(f_a):
@@ -74,7 +74,7 @@ def backprop_conv(prev_layer, layer):
     size = [len(layer[0]), len(layer[0][0])]
     layer = [img.flatten() for img in layer]
     prev_layer = np.array([im2col(np.pad(img, int((filter_size - 1) / 2), mode="constant"), size) for img in prev_layer])
-    dw = np.zeros((len(prev_layer), len(layer), 9))
+    dw = np.zeros((len(prev_layer), len(layer), filter_size ** 2))
     for x in range(len(prev_layer)):
         for y in range(len(layer)):
             dw[x][y] = np.dot(layer[y], prev_layer[x])
@@ -102,9 +102,17 @@ def backprop_pool(prev_layer, layer, deriv, size):
 
 x = np.load('data/x.npy')
 y = np.load('data/y.npy')
+
+c = list(zip(x, y))
+random.shuffle(c)
+
+x, y = zip(*c)
+
+
 filters = init_filters()
 
-w = 0.01 * np.random.randn(1, 5250)
+n = 1050 * layer_sizes[2]
+w = 0.01 * np.random.randn(1, n)
 b = 0
 
 index = 0
@@ -138,7 +146,7 @@ for i in range(epochs):
         b -= learning_rate * np.sum(dz)
 
         dfinal = (w * dz).flatten()
-        dfinala = np.reshape(dfinal[:2625], (5, 7, 75))
+        dfinala = np.reshape(dfinal[:n//2], (5, 7, 75))
         dr2 = backprop_relu(p2, dfinala)
         dp2 = backprop_pool(c2, p2, dr2, 2)
         dw2, dc2 = backprop_conv(r1, dp2)
@@ -146,7 +154,7 @@ for i in range(epochs):
         dp1 = backprop_pool(c1, p1, dr1, 2)
         dw1, dc1 = backprop_conv(np.array([definitions[0]]), dp1)
 
-        dfinalb = np.reshape(dfinal[2625:], (5, 7, 75))
+        dfinalb = np.reshape(dfinal[n//2:], (5, 7, 75))
         dr2 = backprop_relu(bp2, dfinalb)
         dp2 = backprop_pool(bc2, bp2, dr2, 2)
         bdw2, dc2 = backprop_conv(br1, dp2)
@@ -154,9 +162,9 @@ for i in range(epochs):
         dp1 = backprop_pool(bc1, bp1, dr1, 2)
         bdw1, dc1 = backprop_conv(np.array([definitions[1]]), dp1)
 
-        filters[1] -= learning_rate * (dw2 + bdw2) / 2
-        filters[0] -= learning_rate * (dw1 + bdw1) / 2
+        filters[1] += learning_rate * (dw2 + bdw2) / 2
+        filters[0] += learning_rate * (dw1 + bdw1) / 2
 
         index += 1
         index %= len(y)
-    print("Epoch " + str(i+1) + "/" + str(epochs) + ": Error " + str(j), end='')
+    print("Epoch " + str(i+1) + "/" + str(epochs) + ": Error " + str(j))

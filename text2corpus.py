@@ -15,8 +15,6 @@ for fname in glob.glob(path):
         data = re.sub("[^a-zA-Z\s.]", " ", f.read()).split()
         texts.append(data)
 
-print(texts)
-
 dictionary = Dictionary(texts)
 dictionary.save("data/dict.dict")
 
