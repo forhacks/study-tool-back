@@ -5,7 +5,7 @@ import re
 
 # variables
 tfidf = TfidfModel.load("trained/tfidf.model")
-w2v = Word2Vec.load("trained/trained.w2v")
+w2v = Word2Vec.load("trained/w2v/trained.w2v")
 articles = ["a", "an", "the"]
 threshold = 0.9
 
